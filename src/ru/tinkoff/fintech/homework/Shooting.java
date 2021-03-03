@@ -1,6 +1,6 @@
 package ru.tinkoff.fintech.homework;
 
-public interface Shooting {
+public interface Shooting { // Shooting - стреляющий
 
     void Attack();
 

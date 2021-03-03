@@ -1,6 +1,6 @@
 package ru.tinkoff.fintech.homework;
 
-public interface Cutting {
+public interface Cutting { // Cutting - Колющий
 
     void Attack();
 
