@@ -1,11 +1,12 @@
 package ru.tinkoff.fintech.homework;
 
-public abstract class WarriorRace1 extends Races {
+public abstract class WarriorRace1 {
 
-    private String name = "WR1";
-    private String specialization = "Cutter";
+    String name;
+    String specialization;
 
     public abstract void run(); //Объявляем абстрактный метод run()
+
     public abstract void death(); //Объявляем абстрактный метод death()
 }
 
