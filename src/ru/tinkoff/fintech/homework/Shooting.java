@@ -2,7 +2,7 @@ package ru.tinkoff.fintech.homework;
 
 public interface Shooting { // Shooting - стреляющий
 
-    void Attack();
+    public void Attack();
 
-    void Defend();
+    public void Defend();
 }

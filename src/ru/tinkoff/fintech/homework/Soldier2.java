@@ -2,7 +2,6 @@ package ru.tinkoff.fintech.homework;
 
 public class Soldier2 extends WarriorRace2 implements Cutting{ //Класс наследник необходимо объявить как абстрактный класс
 
-
     @Override
     public void run() {
         System.out.println("to run");
