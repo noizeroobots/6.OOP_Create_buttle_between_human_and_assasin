@@ -2,7 +2,7 @@ package ru.tinkoff.fintech.homework;
 
 public class Battle {
 
-    public static void start(){
-
+    public void start(Races races) {
+        races.death();
     }
 }
