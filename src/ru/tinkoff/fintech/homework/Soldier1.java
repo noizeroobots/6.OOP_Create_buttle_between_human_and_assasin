@@ -2,31 +2,23 @@ package ru.tinkoff.fintech.homework;
 
 public class Soldier1 extends WarriorRace1 implements Shooting { // Создаем новый класс и наследуемся от абстрактного класса
 
-    public void setName(String name) {
-        this.name = "1+1";
-    }
-
-    public void setSpecialization(String specialization) {
-        this.specialization = "Human";
+    Soldier1() {
+        name = "Фёдор";
+        specialization = "Человек";
     }
 
     @Override
     public void run() {
-        System.out.println("Федя выглянул из-за камня");
-    }
-
-    @Override
-    public void death() {
-        System.out.println("Федя умер");
+        System.out.println(" выглянул из-за камня");
     }
 
     @Override
     public void Attack() {
-        System.out.println("Федя выстрелил из ружья");
+        System.out.println(" выстрелил из дробовика");
     }
 
     @Override
     public void Defend() {
-        System.out.println("Федя не увернулся от ножей");
+        System.out.println(" не увернулся от ножей");
     }
 }
