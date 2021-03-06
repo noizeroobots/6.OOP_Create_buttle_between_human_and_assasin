@@ -2,7 +2,7 @@ package ru.tinkoff.fintech.homework;
 
 public interface Cutting { // Cutting - Колющий
 
-    void Attack(); // Атаковать
+    void attack(); // Атаковать
 
-    void Defend(); // Защищаться, обороняться
+    void defend(); // Защищаться, обороняться
 }

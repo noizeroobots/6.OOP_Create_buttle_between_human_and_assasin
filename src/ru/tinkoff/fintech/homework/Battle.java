@@ -1,6 +1,6 @@
 package ru.tinkoff.fintech.homework;
 
-public class Battle {
+public final class Battle {
 
 
     public void start() {
@@ -10,16 +10,16 @@ public class Battle {
 
         System.out.print(soldier1.specialization + " " + soldier1.name);
         soldier1.run();
-        soldier1.Attack();
+        soldier1.attack();
 
         System.out.print(soldier2.specialization + " " + soldier2.name);
-        soldier2.Defend();
+        soldier2.defend();
 
         System.out.print(soldier2.specialization + " " + soldier2.name);
-        soldier2.Attack();
+        soldier2.attack();
 
         System.out.print(soldier1.specialization + " " + soldier1.name + " не");
-        soldier1.Defend();
+        soldier1.defend();
 
         System.out.print(soldier1.specialization + " " + soldier1.name);
         soldier1.death();

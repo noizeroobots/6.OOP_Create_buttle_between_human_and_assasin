@@ -7,7 +7,7 @@ public abstract class WarriorRace2 {
 
     public abstract void run(); //Объявляем абстрактный метод run()
 
-    public void death(){ //Объявляем обычный метод death()
+    public final void death() { //Объявляем обычный метод death()
         System.out.println("Крид умер");
     }
 }
