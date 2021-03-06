@@ -2,6 +2,7 @@ package ru.tinkoff.fintech.homework;
 
 public class Battle {
 
+
     public void start() {
 
         Soldier1 soldier1 = new Soldier1(); // Создал экземпляр бойца (юнита)
