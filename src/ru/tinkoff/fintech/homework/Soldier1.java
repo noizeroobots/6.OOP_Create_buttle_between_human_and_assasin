@@ -1,6 +1,6 @@
 package ru.tinkoff.fintech.homework;
 
-public class Soldier1 extends WarriorRace1 implements Shooting { // Создаем новый класс и наследуемся от абстрактного класса
+public class Soldier1 extends WarriorRace1 implements Shooting { // Создаем новый класс и наследуемся от абстрактного класса и реализуем интерфейс Shooting
 
     Soldier1() {
         name = "Фёдор";
@@ -9,16 +9,19 @@ public class Soldier1 extends WarriorRace1 implements Shooting { // Создае
 
     @Override
     public void run() {
-        System.out.println(" выглянул из-за камня");
+        System.out.print(" выглянул из-за камня");
     }
 
     @Override
-    public void Attack() {
-        System.out.println(" выстрелил из дробовика");
+    public void Attack() { // Класс Soldier1, связанный с интерфейсом Shooting, реализует его метод Attack()
+        System.out.println(" и выстрелил из дробовика.");
     }
 
     @Override
-    public void Defend() {
-        System.out.println(" не увернулся от ножей");
+    public void Defend() { // Класс Soldier1, связанный с интерфейсом Shooting, реализует его метод Defend()
+
+        System.out.println(" увернулся от ножей");
     }
+
+
 }
