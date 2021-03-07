@@ -9,12 +9,12 @@ public class Soldier2 extends WarriorRace2 implements Cutting {
 
     @Override
     public final void run() {
-        System.out.println(" выбежал из-за угла");
+        System.out.print(" появился из темной комнаты,");
     }
 
     @Override
     public final void attack() {
-        System.out.println(" метнул ножи в ответ");
+        System.out.print(" метнул ножи в ");
     }
 
     @Override

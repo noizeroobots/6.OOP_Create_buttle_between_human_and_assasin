@@ -14,7 +14,7 @@ public class Soldier1 extends WarriorRace1 implements Shooting {
 
     @Override
     public final void attack() { // Класс Soldier1, связанный с интерфейсом Shooting, реализует его метод Attack()
-        System.out.println(" и выстрелил из дробовика.");
+        System.out.println(" выстрелил из дробовика.");
     }
 
     @Override
